@@ -1,2 +1,2 @@
 # Fighting_Leetcode
-This is a notebook for solving problems in leetcode for Jessie and her friends.
+为了艰难地寻找工作，豆桑和她的朋友们不得以踏上刷LeetCode之路，过程想必是十分艰难的，导致豆桑到现在还没有开始，但是她的朋友们已经踏上了打怪升级不归路，谨以此文件表示对勇士们的崇敬。
