@@ -11,8 +11,9 @@ Jessie：这是豆桑本人，哇一听名字就很牛逼
 未完待续…
 
 以下是豆桑的故事…
+
 **探索初级算法**
-[第一题](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/delete_sorted_array_repetition_num.py)
+> [第一题](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/delete_sorted_array_repetition_num.py)
 
 
 
