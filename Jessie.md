@@ -1,6 +1,12 @@
 # Jessie's leetcode
 
 **探索初级算法**
-> [第一题](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/delete_sorted_array_repetition_num.py)，时间复杂度O(n)
+| 题号       | 题目   |  难度  |
+| --------   | -----:  | :----:  |
+| 26     | [从排序数组中删除重复项](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/delete_sorted_array_repetition_num.py) |   easy    |
+| 122        |  [买卖股票的最佳时机 II ](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/best_time_buy_sale2.py)   |   easy   |
+| 管线        |    \$1    |  234  |
 
-> [第二题](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/best_time_buy_sale2.py)，时间复杂度O(n)
+> [从排序数组中删除重复项](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/delete_sorted_array_repetition_num.py)，时间复杂度O(n)
+
+> [买卖股票的最佳时机 II ](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/best_time_buy_sale2.py)，时间复杂度O(n)
