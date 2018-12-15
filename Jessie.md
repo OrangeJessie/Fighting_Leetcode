@@ -22,3 +22,5 @@ python解决数组问题的时候可以充分利用数组翻转的功能，以�
 > a7. [加一](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/plusOne.py)
 
 > a8. [移动零](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/moveZeroes.py)
+
+> a9. [两数之和](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/twoSum.py)
