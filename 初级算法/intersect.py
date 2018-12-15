@@ -5,16 +5,33 @@ class Solution:
         :type nums2: List[int]
         :rtype: List[int]
         """
-        from collections import Counter
-        x1 = Counter(nums1)
-        x2 = Counter(nums2)
+        d1 = {}
+        d2 = {}
+        for i in nums1:
+            if d1.get(i):
+                d1[i] += 1
+            else:
+                d1[i] = 1
+        for i in nums2:
+            if d2.get(i):
+                d2[i] += 1
+            else:
+                d2[i] = 1
         a = []
-        for i in x1.keys():
-            if x2[i] != 0:
-                num = min(x1[i], x2[i])
+        for i in d1.keys():
+            if d2.get(i):
+                num = min(d1[i], d2[i])
                 for i2 in range(num):
                     a.append(i)
         return a
+
+    def intersect2(self, nums1, nums2):
+        res = []
+        for i in nums1:
+            if i in nums2:
+                res.append(i)
+                nums2.remove(i)
+        return res
 
 
 s = Solution()
