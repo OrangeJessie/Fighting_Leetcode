@@ -1,7 +1,6 @@
 # Jessie's leetcode
 
 ## 探索初级算法
-</br>
 
 ### 第一部分 数组
 
