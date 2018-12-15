@@ -10,7 +10,7 @@ python解决数组问题的时候可以充分利用数组翻转的功能，以�
 
 > a2. [买卖股票的最佳时机 II ](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/maxProfit.py)
 
-> a3. [旋转数组](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/rotate_array.py)
+> a3. [旋转数组](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/rotateArray.py)
 
 > a4. [存在重复](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/containsDuplicate.py)
 
