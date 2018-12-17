@@ -38,7 +38,11 @@ class Solution:
                 t2 = nums[j]
                 nums[j] = nums[l - 1 + k1 - j]
                 nums[l - 1 + k1 - j] = t2
-            nums.reverse()
+            r_l = int(l/2)
+            for i in range(r_l):
+                a = nums[i]
+                num[i] = nums[l-i-1]
+                num[l-i-1] = a
 
     # 非原地算法，时间复杂度O(n)
     def rotate4(self, nums, k):

@@ -7,16 +7,12 @@ class Solution:
         :type nums: List[int]
         :rtype: bool
         """
-        dic = Counter(nums)
-        for value in dic.values():
-            if value >= 2:
+        diction = {}
+        for i in nums:
+            if i not in diction:
+                diction[i] = 1
+            else:
                 return True
-        return False
-
-    def containsDuplicate2(self, nums):
-        x = set(nums)
-        if len(x) < len(nums):
-            return True
         return False
 
 
