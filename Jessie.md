@@ -32,7 +32,7 @@ python解决数组问题的时候可以充分利用数组翻转的功能，以�
 
 > b2. [整数反转](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/reverseNor.py)
 
-> b3. 
+> b3. [字符串中第一个唯一字符](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/firstUniqChar.py)
 
 > b4. 
 
