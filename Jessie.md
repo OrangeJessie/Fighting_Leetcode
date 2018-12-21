@@ -4,7 +4,7 @@
 
 ### 第一部分 数组
 
-python解决数组问题的时候可以充分利用数组翻转的功能，以及统计数组内字符数的字典Counter
+python解决数组问题的时候可以充分利用数组翻转的功能，以及统计数组内字符数的字典
 
 > a1. [从排序数组中删除重复项](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/removeDuplicates.py)
 
@@ -27,3 +27,17 @@ python解决数组问题的时候可以充分利用数组翻转的功能，以�
 > a10. [有效的数独](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/isValidSudoku.py)
 
 > a11. [旋转矩阵](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/rotateMatrix.py)
+
+> b1. [反转字符串](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/reverseString.py)
+
+> b2. [整数反转](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/reverseNor.py)
+
+> b3. [字符串中第一个唯一字符](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/firstUniqChar.py)
+
+> b4. [验证回文字符串](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/isPalindrome.py)
+
+> b5. 
+
+>
+
+>
