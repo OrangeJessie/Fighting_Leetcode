@@ -28,6 +28,8 @@ python解决数组问题的时候可以充分利用数组翻转的功能，以�
 
 > a11. [旋转矩阵](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/rotateMatrix.py)
 
+### 第二部分 字符串
+
 > b1. [反转字符串](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/reverseString.py)
 
 > b2. [整数反转](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/reverseNor.py)
@@ -36,8 +38,10 @@ python解决数组问题的时候可以充分利用数组翻转的功能，以�
 
 > b4. [验证回文字符串](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/isPalindrome.py)
 
-> b5. 
+> b5. [字符串转换整数](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/myAtoi.py)
 
->
+> b6. [实现strStr](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/strStr.py)
 
->
+> b7. [报数](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/countAndSay.py)
+
+> b8. [最长公共前缀](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/longestCommonPrefix.py)
