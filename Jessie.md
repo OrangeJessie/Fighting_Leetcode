@@ -53,3 +53,4 @@ python解决数组问题的时候可以充分利用数组翻转的功能，以�
 > c1. [删除链表中的节点](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/deleteNode.py)
 
 > c2. [删除链表的倒数第N个节点](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/removeNthFromEnd.py)
+<br>在python里使用链表的时候，名字与C中的指针用法近似
