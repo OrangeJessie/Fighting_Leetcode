@@ -12,7 +12,7 @@ class ListNode:
 
 
 class Solution:
-    # 空间复杂度为O(n)
+    # 空间复杂度为O(n)，把链表的值存入数组，再用数组判断
     def palindromeList(self, head):
         """
         :type head: ListNode
@@ -30,7 +30,7 @@ class Solution:
                 return False
         return True
 
-    # 空间复杂度为O(1)
+    # 空间复杂度为O(1)，将链表后半段反向
     def palindromeList2(self, head):
         if not head:
             return True
