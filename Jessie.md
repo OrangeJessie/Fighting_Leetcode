@@ -68,6 +68,10 @@ python解决数组问题的时候可以充分利用数组翻转的功能，以�
 ### 第四部分 树
 > c1. [二叉树的最大深度](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/maxDepth.py)
 
-> c2. [验证二叉搜索树](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/isValidBST.py)这个题稍微有点难
+> c2. [验证二叉搜索树](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/isValidBST.py)
+<br>这个题稍微有点难
 
-> c1. [对称二叉树](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/isSymmetric.py)
+> c3. [对称二叉树](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/isSymmetric.py)
+<br>递归解决问题先找出边界条件，再理清每一个循环做什么返回什么
+
+> c4. [二叉树的层次遍历](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/levelOrder.py)
