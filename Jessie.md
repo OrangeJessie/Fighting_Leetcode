@@ -64,3 +64,10 @@ python解决数组问题的时候可以充分利用数组翻转的功能，以�
 > c3. [回文链表](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/palindromeList.py)
 
 > c4. [环形链表](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/hasCycle.py)
+
+### 第四部分 树
+> c1. [二叉树的最大深度](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/maxDepth.py)
+
+> c2. [验证二叉搜索树](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/isValidBST.py)这个题稍微有点难
+
+> c1. [对称二叉树](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/isSymmetric.py)
