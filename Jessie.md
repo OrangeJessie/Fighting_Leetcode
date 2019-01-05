@@ -75,3 +75,8 @@ python解决数组问题的时候可以充分利用数组翻转的功能，以�
 <br>递归解决问题先找出边界条件，再理清每一个循环做什么返回什么
 
 > c4. [二叉树的层次遍历](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/levelOrder.py)
+
+> c5. [将有序数组转换为二叉搜索树](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/sortedArrayToBST.py)
+
+### 第五部分 排序和搜索
+> d1. [合并两个有序数组](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/merge.py)
