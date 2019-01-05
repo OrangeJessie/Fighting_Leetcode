@@ -33,7 +33,7 @@ class Solution(object):
         return a and b
 
     # 迭代的方法 速度比递归要快一点
-    # 迭代的方式遍历整棵树
+    # 迭代的方式遍历整棵树，通过把树上的每个节点存进列表，对称的情况下相等的节点在列表中连续两个
     def isSymmetric2(self, root):
         if not root:
             return True
