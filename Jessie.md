@@ -80,3 +80,5 @@ python解决数组问题的时候可以充分利用数组翻转的功能，以�
 
 ### 第五部分 排序和搜索
 > d1. [合并两个有序数组](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/merge.py)
+
+> d2. [第一个错误的版本](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/firstBadVersion.py)
