@@ -86,7 +86,7 @@ python解决数组问题的时候可以充分利用数组翻转的功能，以�
 ### 第六部分 动态规划
 > e1. [爬楼梯](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/climbStairs.py)
 
-> e2. [买卖股票的最佳时机](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/maxProfit.py)
+> e2. [买卖股票的最佳时机](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/maxProfitDynamic.py)
 
 > e3. [最大子序和](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/maxSubArray.py)
 
