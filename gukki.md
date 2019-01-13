@@ -10,25 +10,4 @@
 |19|[Remove Nth Node From End of List](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/gukkihao/HremoveNthFromEnd.cpp)|easy|
 |un|[Reverse a linked list](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/gukkihao/HreverseList.cpp)|easy|
 |un|[Palindrome Linked List](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/gukkihao/HisPalindrome.cpp)|easy|
-`/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- * };
- */
-class Solution {
-public:
-    bool isSymmetric(TreeNode* root) {
-        if(!root) return false;
-        TreeNode* left=root->left;
-        TreeNode* right=root->right;
-        while(right&&left)
-        {
-            if(right->val)
-        }
-        
-    }
-};`
+`
