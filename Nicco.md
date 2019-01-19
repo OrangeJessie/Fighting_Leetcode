@@ -1,5 +1,5 @@
 Nicco 做了初级,中级,高级算法，分为三部分：
-(Nicco的初级算法)[https://github.com/OrangeJessie/Fighting_Leetcode/tree/master/Nicco的初级算法]
+[Nicco的初级算法](https://github.com/OrangeJessie/Fighting_Leetcode/tree/master/Nicco的初级算法)
 (Nicco的中级算法)[https://github.com/OrangeJessie/Fighting_Leetcode/tree/master/Nicco的中级算法]
 (Nicco的高级算法)[https://github.com/OrangeJessie/Fighting_Leetcode/tree/master/Nicco的高级算法]
 
