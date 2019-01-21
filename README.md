@@ -4,7 +4,7 @@
 
 [Gukki](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/gukki.md)：这是一个拥有和他老婆Gakki相似度百分之80名字的战士，不怎么会C++
 
-[Nicco](https://github.com/OrangeJessie/Fighting_Leetcode/tree/master/Nicco%E7%9A%84%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95)：这是豆桑的傻儿子，什么都不会，还请大家多多关照
+[Nicco](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/Nicco.md)：这是豆桑的傻儿子，什么都不会，还请大家多多关照
 
 [Jessie](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/Jessie.md)：这是豆桑本人，哇一听名字就很牛逼
 
