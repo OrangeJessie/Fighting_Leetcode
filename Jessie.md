@@ -91,3 +91,8 @@ python解决数组问题的时候可以充分利用数组翻转的功能，以�
 > e3. [最大子序和](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/maxSubArray.py)
 
 > e4. [打家劫舍](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/rob.py)
+
+### 第七部分 设计问题
+> f1. [Shuffle an Array](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/shuffle.py)
+
+> f2. [最小栈](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/getMin.py)
