@@ -96,3 +96,12 @@ python解决数组问题的时候可以充分利用数组翻转的功能，以�
 > f1. [Shuffle an Array](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/shuffle.py)
 
 > f2. [最小栈](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/MinStack.py)
+
+### 第八部分 数学
+> g1. [Fizz Buzz](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/fizzBuzz.py)
+
+> g2. [计数质数](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/countPrimes.py)
+
+> g3. [3的幂](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/isPowerOfThree.py)
+
+> g4. [罗马数字转整数](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/romanToInt.py)
