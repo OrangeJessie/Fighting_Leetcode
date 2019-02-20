@@ -105,3 +105,16 @@ python解决数组问题的时候可以充分利用数组翻转的功能，以�
 > g3. [3的幂](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/isPowerOfThree.py)
 
 > g4. [罗马数字转整数](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/romanToInt.py)
+
+### 第九部分 其他
+> h1. [位1的个数](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/hammingWeight.py)
+
+> h2. [汉明距离](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/hammingDistance.py)
+
+> h3. [颠倒二进制位](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/reverseBits.py)
+
+> h4. [帕斯卡三角形](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/generate.py)
+
+> h5. [有效的括号](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/isValid.py)
+
+> h6. [缺失数字](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/missingNumber.py)
