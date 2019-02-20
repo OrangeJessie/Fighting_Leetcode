@@ -108,7 +108,7 @@ python解决数组问题的时候可以充分利用数组翻转的功能，以�
 
 ### 第九部分 其他
 > h1. [位1的个数](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/hammingWeight.py)
-
+<br>python中二进制数转换成字符是十进制的字符，例如输入a=0b001011，输出a=11。转换二进制bin
 > h2. [汉明距离](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/hammingDistance.py)
 
 > h3. [颠倒二进制位](https://github.com/OrangeJessie/Fighting_Leetcode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/reverseBits.py)
