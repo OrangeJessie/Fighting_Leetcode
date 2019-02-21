@@ -6,19 +6,17 @@ class Solution:
         :type target: int
         :rtype: List[int]
         """
-        l = len(nums)
-        diff = []
-        for i in range(l):
-            diff.append(target-nums[i])
-        tar = list(set(nums).intersection(diff))
-        b = []
-        for i in tar:
-            a = nums.count(i)
-            if a == 2:
-                b = [i2 for (i2, z) in enumerate(nums) if z == i]
-            elif i != target/2:
-                b.append(nums.index(i))
-        return b
+        n = len(nums)
+        # 创建一个空字典
+        d = {}
+        for x in range(n):
+            a = target - nums[x]
+            # 字典d中存在nums[x]时
+            if nums[x] in d:
+                return [d[nums[x]], x]
+            # 否则往字典增加键/值对
+            else:
+                d[a] = x
 
 
 s = Solution()
