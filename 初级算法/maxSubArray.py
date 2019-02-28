@@ -10,7 +10,7 @@ class Solution(object):
             sum += num
             if sum > max_sub_sum:
                 max_sub_sum = sum
-            if sum < 0:                 # 如果数组的前面是负的，那么新的子数组从非负的地方开始
+            if sum < 0:                 # 如果数组的前面是负的，那么新的子数组从非负的地方开始，前面的值会使后面的值更小。
                 sum = 0
         return max_sub_sum
 
