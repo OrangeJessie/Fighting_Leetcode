@@ -37,7 +37,7 @@ class Solution:
                 break
         return head
 
-    # 递归的方式
+    # 递归的方式——从链表的最后两位开始向前反转
     def reverseList2(self, head):
         if (not head) or (not head.next):
             return head
