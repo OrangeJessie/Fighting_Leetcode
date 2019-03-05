@@ -357,10 +357,252 @@ void f()
 
 ### 15.在资源管理类中提供对原始资源的访问
 
+### 16. 成对使用new和delete时要采用相同形式　
+
+简而言之，就是在使用new动态分配对象时，相应的就要使用delete删除对象
+
+如果在new表达式中使用[],那么相应的delete表达式也要使用[].
+
+### 17. 以独立语句将newed对象置入只能指针
+
+```c++
+int priority();
+void processWidget(std::tr1::shared_ptr<Widget> pw, int priority);
+```
+
+如果考虑调用processWidget
+
+```c++
+processsWidget(new Widget, priority());
+```
+
+无法通过编译，原因在于Widget对应的构造函数是一个explict构造函数，无法进行隐式转换，将`new Widget`的原始指针转换为`std::tr1::shared_ptr`
+
+但是如果
+
+```c++
+processsWidget(std::tr1::shared_ptr<Widget>(new Widget), priority());
+```
+
+虽然可以通过编译，但是会由于后面函数调用的异常，是的new返回的指针丢失
+
+因此，最好的办法是分开写，也即
+
+```c++
+std::tr1::shared_ptr<Widget>(new Widget)
+processsWidget(pw, priority());
+```
+
+effective c++的学习先告一段落，没事再看，现在开始学习linux和计算机网络
+
+# Linux学习
 
 
 
+鸟哥的私房菜（基础学习） 
 
+操作系统: 1. 每个操作系统都有一个内核，主要用于管控硬件并提供相关的能力，内核是常驻在内存的(开机)，2. x系统调用也即操作系统提供的一整套系统的开发接口
 
+linux内的所有数据都是以文件的形态存在的，目录树
 
- 
+`date`显示日期, `cal`显示日历，`bc`计算器　`[Ctrl]+c`终止当前命令`[Ctrl]+d`退出
+
+终端 内嵌入了命令解释器 `shell`, `cat /etc/shells`查看系统内可用的shell, `echo $SHELL`查看当前shell，　bash和shell的作用是一样的
+
+命令和路径,文件名补齐`Tab`,一次(文件不止一个)和两次(显示全部)的区别
+
+|   功能    |  快捷键   | 助记             |
+| :-------: | :-------: | ---------------- |
+|    上     | Ctrl - p  | previous         |
+|    下     | Ctrl - n  | next             |
+|    左     | Ctrl - b  | backward         |
+|    右     | Ctrl - f  | forward          |
+|    Del    | Ctrl - d  | delete光标后面的 |
+|   Home    | Ctrl - a  | the first letter |
+|    End    | Ctrl - e  | end              |
+| Backspace | Backspace | delete           |
+|   清除    | Ctrl - u  | 清除光标所有的行 |
+| 终止命令  | Ctrl - c  |                  |
+
+linux的目录结构　`cd ..` 回到上一级目录　`pwd`　查看当前目录
+
+`bin`存放可执行文件，可以进入，然后执行相应的文件，也可以直接在终端内输入bin内的可执行文件名，两者的执行结果一致，但是过程有差别(shell命令解析)
+
+`boot`存放系统启动程序
+
+`dev`存放设备linux系统中所见皆文件，包括硬件设备（对应某个文件）
+
+`home`存放用户
+
+`lib`存放一些系统库文件比如c++的库
+
+`media`跟外接磁盘相关
+
+`root`管理员宿主目录进去先切换用户
+
+`sudo su`退出用在
+
+`use`存放用户安装的软件和资源　　
+
+`etc`存放用户信息和系统配置文件
+
+相对路径和绝对路径 cd . cd .. cd -   cd ~
+
+mkdir　创建文件夹  后面添加文件夹名　
+
+`ls`浏览文件夹内的所有文件　ls -a 显示隐藏文件　ls -d　显示目录 ls - Rl 递归进入
+
+`touch` 创建一个空文件
+
+文件类型：１普通文件`-`表示　２目录文件`d`表示　３字符设备文件`c`表示　４块设备文件`b`表示　５软连接文件`l`（硬链接文件归于普通文件）6管道文件`p`表示　７套接字`s` 8 未知文件
+
+which　查看指定命令路径
+
+pwd　　查看当前文件目录
+
+rmdir　删除空目录
+
+rm  -rf　强制删除(慎重慎重慎重又慎重)
+
+cp 拷贝文件到某个文件夹　-a(all)) , -d  -r
+
+`cat`查看文件内容，读终端输入　　　`tac`倒序查看文件
+
+`more`  查看文件　分屏显示　 `less`   　分屏显示　`head` 显示默认前十行，可以指定参数　　`tail`显示默认后十行
+
+`tree`　需要下载安装，按照结构树的显示
+
+`wc` `od`
+
+软连接和硬链接　`ln`
+
+软连接　ln -s  file file.s 给file文件创建一软连接，类似与windows的快捷方式，存放链接文件的访问路径　　如果要保证创建的软连接在任何地方都可以用，需要用绝对路径。软连接对源文件具有完全的读写权限
+
+硬连接　对硬连接其中的文件任意一个修改，那么硬连接的文件都会修改，每个文件都有唯一的Inode, 修改的时候会彼此同步，删除的时候只把硬连接基数-1，减到０时，Inode被释放
+
+`stat`查看文件状态
+
+`mv`移动文件
+
+`whoami`显示当前用户
+
+`chmod`修改文件属性（读写执行权限）两种设定方法，文字设定法，数字设定法（４　２　１每一用户对应权限数字加起来就可以 `chmod [who][+|-|=] [mode] 文件名` a :all u:usr　g :同组用户　o:其他用户 r：读　w：写　x: 执行
+
+`chown` 更改文件所有者
+
+创建用户，创建用户组，suso　adduser|addgroup +用户名｜组名
+
+chown和chgrp修改文件所有者和用户组
+
+chown也可以一次性修改完文件所属用户和用户组用`:`分开用户名和用户组
+
+删除用户和组把add替换成del就可以了
+
+查找与检索
+
+linux不以文件后缀名区分文件类型，而是以文件读写权限区分
+
+`find`　默认磁盘块大小,以文件为搜索对象
+
+块的大小是512字节，概念来源于磁盘，均分扇区（磁盘划分的最小区域）最小分区单位
+
+`find -type`按文件类型搜索 d/p/s/c/b/l   f:文件
+
+ `find ./ '*.cpp'`在当前文件内寻找后缀为cpp的文件（包括子目录）
+
+`find ./ -maxdepth 1 -name '*.cpp'`搜集层级深度为１, maxdepth和name不能互换位置
+
+`find ./ -size +20M -size -50M　　　`　按照文件大小搜索(大于20ｍ,小于50ｍ)　单位 k, M, G(大小写不一样)
+
+`-atime  -ctime(修改时间，按天计算)   -mtime   `　　　`-amin  -cmin(修改时间，按分钟计算)   -mmin`
+
+`find /usr/ -name "*tmp*" -exec ls -l {} \;`　　`{}`表示`find /usr/ -name "*tmp*"`   `\;`表示命令行的结束  `-exec`将find搜索的结果执行某一个指定的命令
+
+`find /usr/ -name "*tmp*" -ok ls -l {} \;`将find搜索的结果执行某一个指定的命令，并且会询问
+
+`find ./ maxdepth 1 -type f | xargs ls -l`不加xargs管道|是没有用的，结果显示的是ls -l 的结果
+
+`xargs`对管道之前的任务进行分片处理，再交给管道后面的命令执行，比-exec的效率要高一些，把找到的文件名按照空格进行区分（小缺陷），解决办法是加入`-print0 | xargs　-print0 `强制用０进行拆分
+
+`-exec`同一把管道前面的任务一起直接交给管道后面的命令执行
+
+`grep` 找文件内容
+
+`grep -r 'class' ./ -n` `-r`递归参数　`-n`显示内容所在行数
+
+`ps`监控后台工作进程　`ps aux`类似于windows的任务管理器　　`ps aux | grep ‘hao’`检索进程内容为hao的进程，如果hao不存在，那么搜到的结果是关于grep，且只有一条信息　
+
+管道
+
+`touch abc xyz` 创建两个文件　`touch abc\ xyz`创建一个文件名字为`abc xyz`
+
+ `awk` `sed` 结合正则表达式使用，脚本编程　　书籍下载`sed与awk　第三版`
+
+安装卸载软件
+
+`sudo` 超级管理员权限
+
+`apt-get` 
+
+软件源:`sudo apt-get update`　获取本地软件源列表到本地，`sudo apt-get install　softeare`安装、
+
+卸载　`sudo  apt-get remove software`
+
+deb包安装，ubuntu内所有软件安装包都是`.deb`格式,，等价于`.exe`
+
+安装`sudo dpkg -i xxx.deb`
+
+卸载`sudo apt-get remove software`或者`sudo dpkg  -r xxx.deb` 
+
+原码安装
+
+1. 解压 
+2. cd dir 
+3. 检查文件是否缺失，用configure创建Makefile,检测编译环境
+4. 用make编译原码，生成库和可执行程序
+5. 把库和可执行程序，安装到系统路径下　`sudo make install`
+6. `sudo make distclean`卸载和删除软件
+
+压缩包管理
+
+１．`tar -zcvf 要生成的压缩包名　压缩材料`（z,gzip，c创建，v显示压缩过程）
+
+`gzip`和`gunzip`只能压缩一个文件
+
+`tar`用于打包文件　
+
+２．bzip2跟gzip很像　`tar -jcvf 要生成的压缩包名　压缩材料`
+
+３．解压　`tar -zxvf 要生成的压缩包名　压缩材料`  `tar -jxvf 要生成的压缩包名　压缩材料`
+
+4. 压缩`rar a -r 压缩目标文件名　原文件`　解压`unrar x 压缩文件`
+5. aptitude　有一个show命令可以查看文件安装状态，和apt-get类似
+6. `zip -r 压缩包名　原文件`  解压　`unzip 压缩包名`
+
+进程管理相关命令
+
+1`who`查看当前电脑用户，带有进程
+
+２　`ps`
+
+３．`jobs`
+
+４．`env`
+
+5. `top` 文字版的任务管理器
+6. 
+
+设置密码
+
+sudo passwd 用户名修改用户密码
+
+７．root用户，`sudo su`变成root用户，不要使用
+
+８．删除用户　
+
+９．　`ifconfig`查看网卡信息
+
+10. `man` 帮助手册
+11. `umask [-p] -S [mode]`
+12. `date`查看时间
+
