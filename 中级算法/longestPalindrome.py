@@ -94,8 +94,6 @@ class Solution(object):
                 b = last+1
         return s[a:b]
 
-
-
     # 超出时间限制了
     def longestPalindrome3(self, s):
         """
